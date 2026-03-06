@@ -1,0 +1,71 @@
+name: january.mcglynn
+description: discrete
+version: 0.0.1
+author: 2sdcpwss.5ac0bkhj@zprjawya.com
+language: scala
+buildSystem: ''
+buildSystemDetails:
+  artefactID: januarymcglynn
+  parentArtefactID: ''
+  buildSystem: maven
+  author: null
+  createdAt: '2026-03-06 13:48:53'
+pipelines:
+  pipelines/pipeline1:
+    name: pipeline1
+    description: Really solid info
+    author: 2sdcpwss.5ac0bkhj@zprjawya.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2026-03-06 13:48:53'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: 2.12.15
+  gemLibsVersion: 1.1.26
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2026-03-06 13:48:53'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules:
+    businessRules/br1:
+      name: br1
+      description: ''
+      tags: []
+      inputs: []
+      outputs: []
+      author: 2sdcpwss.5ac0bkhj@zprjawya.com
+      createdAt: '2022-12-15 18:04:50'
+subgraphs: {}
+sqlModels: {}
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies:
+- modifiedAt: '2026-03-06T13:48:53.713566Z'
+  name: plibMaven
+  version: 9.1.0-SNAPSHOT
+  id: '37861365'
+  createdAt: '2026-03-06T13:48:53.713566Z'
+  type: plibMaven
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
+projectConfigurations: {}
